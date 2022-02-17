@@ -1,15 +1,4 @@
 import random
-#
-# class utility:
-#     def __init__(self):
-#         pass
-#
-#     def generateTestArray(self):
-#         a = []
-#         for i in range(10000):
-#             a.append(random.randint(0, 10000))
-#         return a
-#
 
 @profile
 def SCAN(a):
@@ -24,19 +13,6 @@ def SCAN(a):
                 continue
     return
 
-
-# def STOR(a):
-#     n = len(a)
-#     print('n', n)
-#     b = [0] * 1001
-#     for i in range(n):
-#         print('test', b[a[i]], i)
-#         if b[a[i]] == 1:
-#             print("meet duplicate when i = ", i)
-#             print('STOR Duplicate Element', a[i])
-#             print(b, len(b))
-#         else:
-#             b[a[i]] = 1
 @profile
 def STOR(a):
     n = len(a)
