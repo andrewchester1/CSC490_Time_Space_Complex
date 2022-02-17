@@ -15,7 +15,6 @@ def SCAN(a):
 
 @profile
 def STOR(a):
-    n = len(a)
     b = []
     for i in a:
         if i not in b:
